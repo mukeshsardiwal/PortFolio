@@ -6,31 +6,31 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center space-y-4">
 
         <div className="flex space-x-4">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/mukesh__sardiwal" target="_blank" rel="noopener noreferrer">
             <img 
               src={'https://cdn-icons-png.flaticon.com/128/717/717392.png'} 
               alt="Instagram" 
-              className="h-8 w-8 hover:transform hover:scale-125 hover:rotate-6 transition-transform duration-300" 
+              className="h-8 w-8 hover:transform hover:scale-125 hover:rotate-6 transition-transform duration-300 " 
             />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/themuZz07" target="_blank" rel="noopener noreferrer">
             <img 
               src={'https://cdn-icons-png.flaticon.com/128/5968/5968958.png'} 
               alt="Twitter" 
               className="h-8 w-8 hover:transform hover:scale-125 hover:rotate-6 transition-transform duration-300" 
             />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/mukeshsardiwal" target="_blank" rel="noopener noreferrer">
             <img 
               src={'https://cdn-icons-png.flaticon.com/128/3291/3291695.png'} 
-              alt="LinkedIn" 
+              alt="GitHub" 
               className="h-8 w-8 hover:transform hover:scale-125 hover:rotate-6 transition-transform duration-300" 
             />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://in.linkedin.com/in/mukesh-sardiwal" target="_blank" rel="noopener noreferrer">
             <img 
               src={'https://cdn-icons-png.flaticon.com/128/61/61109.png'} 
-              alt="Dribbble" 
+              alt="LinkedIn" 
               className="h-8 w-8 hover:transform hover:scale-125 hover:rotate-6 transition-transform duration-300" 
             />
           </a>
