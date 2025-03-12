@@ -27,14 +27,20 @@ const ProjectInsights = () => {
     <div className='bg-gray-900 text-white p-6'>
       <h1 className='text-4xl font-bold mb-6'>Project Insights</h1>
       
-      <div className='bg-gray-800 p-6 rounded-lg'>
-        <img 
+      <div className='bg-gray-800 p-6 rounded-lg flex gap-4'>
+    <div>
+    <img 
           src={currentProject.image} 
           alt={currentProject.name} 
-          className='w-full h-64 object-cover rounded-lg mb-4'  // Added object-cover for proper image fitting
+          className='w-[1200px] h-64 object-cover rounded-lg mb-4'  // Added object-cover for proper image fitting
         />
-        <h2 className='text-3xl font-bold mb-2'>{currentProject.name}</h2>
-        <p className='text-gray-300 mb-4'>{currentProject.description}</p>
+    </div>
+       <div>
+       <h2 className='text-3xl font-bold mb-2'>{currentProject.name}</h2>
+       <p className='text-gray-300 mb-4'>{currentProject.description}</p>
+       <p className='text-gray-300 mb-4'>{currentProject.technologies.join(', ')}</p>
+       <a href={currentProject.link} target='_blank' rel='noopener noreferrer' className='text-blue-500 hover:text-blue-400'>View Project</a>
+       </div>
       </div>
 
       {/* Dots for each project */}

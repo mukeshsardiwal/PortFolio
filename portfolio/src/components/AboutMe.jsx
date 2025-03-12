@@ -5,7 +5,7 @@ const AboutMe = () => {
     <div className='bg-black text-white pt-10 pb-16 flex justify-center items-center'>
       <div className='text-center max-w-2xl'>
         {/* Button */}
-        <button className='text-black bg-white rounded-full text-4xl font-bold px-10 py-4 tracking-wide transition-all duration-300 hover:bg-gray-300'>
+        <button className='text-black bg-white rounded-full font-bold px-10 py-3 tracking-wide transition-all duration-300 hover:bg-gray-300'>
           ABOUT ME
         </button>
         

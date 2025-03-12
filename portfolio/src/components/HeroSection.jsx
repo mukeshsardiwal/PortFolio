@@ -16,7 +16,7 @@ const HeroSection = () => {
         <div className='flex justify-center'>
 
         <button className='flex flex-row justify-center bg-white text-black rounded-full items-center gap-2 px-4 py-2 font-semibold mt-6'>
-          View My Work 
+          <a href="https://github.com/mukeshsardiwal" target='_blank' rel='noopener noreferrer'>View My Work </a>
           <img src={assets.arrow} className='w-4 h-4' alt="arrow" />
         </button>
         </div>
