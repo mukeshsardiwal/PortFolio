@@ -4,10 +4,11 @@ import { assets } from '../assets/assets' // Ensure arrow image is correctly imp
 const HeroSection = () => {
   return (
     <div className='flex flex-col justify-center items-center bg-black text-white h-screen'>
-      <div className='text-center flex flex-col gap-4'>
+      <div className='text-center flex flex-col gap-4 '>
+        <img src={assets.MUZZ} alt="" className='ml-60 w-52 h-52 rounded-full' />
         <p className='text-4xl font-bold'>
           Hello, I'm <br />
-          <span className='text-blue-500'>Mukesh Sardiwal</span>
+          <span className='text-blue-500 text-6xl'>Mukesh Sardiwal</span>
         </p>
         <p className='text-gray-400 mt-4'>
           Software developer crafting exceptional digital experiences and accessible, human-centered products.

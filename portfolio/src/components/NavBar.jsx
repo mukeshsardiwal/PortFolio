@@ -9,7 +9,7 @@ const NavBar = () => {
             <li>About Me</li>
             <li>Skills</li>
             <li>Portfolio</li>
-            <li><button className='bg-white text-gray-900 rounded-full font-semibold text-sm px-4 py-2.5'>CONTACT ME</button></li>
+            <li><button className='bg-gray-9  00 text-white rounded-sm  text-md px-4 py-2.5 hover:bg-gray-900'>CONTACT ME</button></li>
         </ul>
       </div>
     </div>
