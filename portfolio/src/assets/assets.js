@@ -1,4 +1,49 @@
-import MUZZ from './MUZZ.jpg'
+import MUZZ from './MUZZ.jpg';
+import arrow from './arrow.png';
+
 export const assets = {
-    MUZZ
-}
+    MUZZ,
+    arrow
+};
+
+export const skills = {
+    UsingNow: [
+        {
+            name: 'HTML5',
+            image: 'https://cdn-icons-png.flaticon.com/512/226/226269.png' 
+        },
+        {
+            name: 'CSS3',
+            image: 'https://cdn-icons-png.flaticon.com/128/732/732190.png'        },
+        {
+            name: 'JAVASCRIPT',
+            image: 'https://cdn-icons-png.flaticon.com/128/5968/5968292.png',
+        },
+        {
+            name: 'GIT',
+            image: 'https://cdn-icons-png.flaticon.com/128/15466/15466163.png',
+        },
+        {
+            name: 'MONGODB',
+            image: 'https://cdn.iconscout.com/icon/free/png-512/free-mongodb-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175140.png?f=webp&w=512'        },
+        {
+            name: 'MYSQL',
+             image: 'https://cdn.iconscout.com/icon/free/png-512/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945040.png?f=webp&w=512   '
+        },
+       {
+            name: 'TYPESCRIPT',
+            image: 'data:image/png;base64,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',
+        },
+        {
+            name: 'REACT',
+            image: 'https://cdn.iconscout.com/icon/free/png-512/free-react-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175110.png?f=webp&w=512'        },        {
+            name: 'PYTHON',
+            image: 'https://cdn.iconscout.com/icon/free/png-512/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=512'        },
+        {
+            name: 'NODEJS',
+            image: 'https://cdn.iconscout.com/icon/free/png-512/free-nodejs-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226035.png?f=webp&w=512'
+                },        {
+            name: 'EXPRESS',
+            image: 'data:image/png;base64,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'
+    }    ],
+};
